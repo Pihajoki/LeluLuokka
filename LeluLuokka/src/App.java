@@ -3,38 +3,24 @@ public class App {
         lelu lo1 = new lo1();
         lelu lo2 = new lo2();
         vieteriauto vao1 = new vao1();
-
     }
-}
+} // Main Loppuu
 class lelu {
-
     public String nimi ="";
     public int paino = 0;
-
             public void tulostaTiedot()
             {
-
-
             }
     }
 class vieteriauto {
-
     int nopeus = 0;
-    
             public void kiihdyta()
             {
-
-
             }
-        
             public void tulostaTiedot()
             {
-
-
             }
-
     }
-
 /*Tee kantaluokka Lelu, jolla on kaksi attribuuttia (esim. nimi ja paino), parametriton muodostin,
 yksi muodostin kaikilla parametreilla ja metodi, joka tulostaa olion tiedot.
 
